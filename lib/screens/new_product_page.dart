@@ -132,7 +132,9 @@ class NewProductPage extends StatelessWidget {
                                       children: [
                                         Padding(
                                           padding: const EdgeInsets.only(
-                                              left: 8, bottom: 12,),
+                                            left: 8,
+                                            bottom: 12,
+                                          ),
                                           child: Text(
                                             "Product Group : $group",
                                             style: const TextStyle(
@@ -449,7 +451,7 @@ class NewProductPage extends StatelessWidget {
                                             child: (newProduct.image == null)
                                                 ? Center(
                                                     child: Icon(
-                                                      Icons.image,
+                                                      Icons.add,
                                                       color: ColorPalette
                                                           .nileBlue
                                                           .withOpacity(0.5),

@@ -45,7 +45,7 @@ class ProductCard extends StatelessWidget {
               child: (product!.image == null)
                   ? Center(
                       child: Icon(
-                        Icons.image,
+                        Icons.check,
                         color: ColorPalette.nileBlue.withOpacity(0.5),
                       ),
                     )
